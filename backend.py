@@ -54,4 +54,3 @@ async def chat(req: MessageRequest):
                              config={"configurable": {"thread_id": "1"}})
     bot_reply = result["messages"][-1].content
     return {"reply": bot_reply}
-#https://github.com/Jananii2611/chat_bot_vac.git
